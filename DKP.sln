@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2011
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DKP", "DKP.csproj", "{012E0290-5D72-44E1-B321-94F25DDF14DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{012E0290-5D72-44E1-B321-94F25DDF14DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{012E0290-5D72-44E1-B321-94F25DDF14DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{012E0290-5D72-44E1-B321-94F25DDF14DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{012E0290-5D72-44E1-B321-94F25DDF14DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC8F6B0E-3EAB-40AD-9144-B664FA5CEE82}
+	EndGlobalSection
+EndGlobal
