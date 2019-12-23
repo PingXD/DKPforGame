@@ -1,0 +1,16 @@
+C:\Users\PingX\Desktop\DKP\DKP\bin\Debug\DKP.exe.config
+C:\Users\PingX\Desktop\DKP\DKP\bin\Debug\DKP.exe
+C:\Users\PingX\Desktop\DKP\DKP\bin\Debug\DKP.pdb
+C:\Users\PingX\Desktop\DKP\DKP\bin\Debug\MySql.Data.dll
+C:\Users\PingX\Desktop\DKP\DKP\bin\Debug\Google.Protobuf.dll
+C:\Users\PingX\Desktop\DKP\DKP\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\PingX\Desktop\DKP\DKP\bin\Debug\Renci.SshNet.dll
+C:\Users\PingX\Desktop\DKP\DKP\bin\Debug\MySql.Data.xml
+C:\Users\PingX\Desktop\DKP\DKP\obj\Debug\DKP.Form1.resources
+C:\Users\PingX\Desktop\DKP\DKP\obj\Debug\DKP.Properties.Resources.resources
+C:\Users\PingX\Desktop\DKP\DKP\obj\Debug\DKP.csproj.GenerateResource.cache
+C:\Users\PingX\Desktop\DKP\DKP\obj\Debug\DKP.csproj.CoreCompileInputs.cache
+C:\Users\PingX\Desktop\DKP\DKP\obj\Debug\DKP.csproj.CopyComplete
+C:\Users\PingX\Desktop\DKP\DKP\obj\Debug\DKP.exe
+C:\Users\PingX\Desktop\DKP\DKP\obj\Debug\DKP.pdb
+C:\Users\PingX\Desktop\DKP\DKP\obj\Debug\DKP.csprojResolveAssemblyReference.cache

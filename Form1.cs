@@ -19,7 +19,7 @@ namespace DKP
         private void button4_Click(object sender, EventArgs e)//添加角色
         {   
             string NameID = GameID.Text;
-            string constr = string.Format("Database=Exam;Data Source = IP; User Id = root; Password=密码;CharSet=utf8;port=3306;Allow User Variables=True");
+            string constr = string.Format("Database=Exam;Data Source = 149.129.78.182; User Id = Exam; Password=Abc123.@@;CharSet=utf8;port=3306;Allow User Variables=True");
             MySqlConnection conn = new MySqlConnection(constr);
             string sqlcom = string.Format("INSERT INTO DKP (Name,DKPTotal) VALUES ('{0}','0')", NameID);
             //MySqlDataAdapter sda = new MySqlDataAdapter(sqlcom, conn);
@@ -60,7 +60,7 @@ namespace DKP
             else
             {
                 string NameIDcaxun = caxunID.Text;
-                string constr = string.Format("Database=Exam;Data Source = IP; User Id = root; Password=密码;CharSet=utf8;port=3306;Allow User Variables=True");
+                string constr = string.Format("Database=Exam;Data Source = 149.129.78.182; User Id = Exam; Password=Abc123.@@;CharSet=utf8;port=3306;Allow User Variables=True");
                 MySqlConnection conn = new MySqlConnection(constr);
                 string sqlcom = string.Format("select * from DKP where Name='{0}' ", NameIDcaxun);
                 MySqlDataAdapter sda = new MySqlDataAdapter(sqlcom, conn);
@@ -76,7 +76,7 @@ namespace DKP
         {
 
             checkedListBox1.Items.Clear();
-            string constr = string.Format("Database=Exam;Data Source = IP; User Id = root; Password=密码;CharSet=utf8;port=3306;Allow User Variables=True");
+            string constr = string.Format("Database=Exam;Data Source = 149.129.78.182; User Id = Exam; Password=Abc123.@@;CharSet=utf8;port=3306;Allow User Variables=True");
             MySqlConnection conn = new MySqlConnection(constr);
             string sqlcom = string.Format("select Name from DKP");
             MySqlDataAdapter sda = new MySqlDataAdapter(sqlcom, conn);
@@ -102,7 +102,7 @@ namespace DKP
             if (comboBox1.Text == "增加")
             {
                 int dkpaddnum = Convert.ToInt32(addDKPnum.Text);
-                string constr = string.Format("Database=Exam;Data Source = IP; User Id = root; Password=密码;port=3306;Allow User Variables=True;CharSet=utf8;");
+                string constr = string.Format("Database=Exam;Data Source = 149.129.78.182; User Id = Exam; Password=Abc123.@@;port=3306;Allow User Variables=True;CharSet=utf8;");
                 MySqlConnection conn = new MySqlConnection(constr);
                 conn.Open();
                 string selectedItem = string.Empty;
@@ -145,7 +145,7 @@ namespace DKP
             else if (comboBox1.Text == "减少")
             {
                 int dkpaddnum = Convert.ToInt32(addDKPnum.Text);
-                string constr = string.Format("Database=Exam;Data Source = IP; User Id = root; Password=密码;CharSet=utf8;port=3306;Allow User Variables=True");
+                string constr = string.Format("Database=Exam;Data Source = 149.129.78.182; User Id = Exam; Password=Abc123.@@;CharSet=utf8;port=3306;Allow User Variables=True");
                 MySqlConnection conn = new MySqlConnection(constr);
                 conn.Open();
                 string selectedItem = string.Empty;
@@ -196,6 +196,11 @@ namespace DKP
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            caxunID.Text=checkedListBox1.SelectedItem.ToString();
         }
     }
 }
